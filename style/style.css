@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.title {
+  width: 100%;
+  height: 50vh;
+  background-image: url(/image/totem-1.png);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title .text {
+  text-align: center;
+}
+
+.title .text p {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+}
+
+footer .text {
+  text-align: center;
+  color: blanchedalmond;
+}
+/*# sourceMappingURL=style.css.map */
