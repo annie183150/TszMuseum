@@ -1,3 +1,7 @@
+@import "Boostrapscss/bootstrap.scss";
+@import "index";
+@import "faq";
+
 * {
   padding: 0;
   margin: 0;
@@ -27,4 +31,9 @@ footer {
 }
 .pic {
   background-color: blanchedalmond;
+}
+.btn-primary-hover:hover {
+  background-color: burlywood;
+  color: rgb(151, 204, 186);
+  border: 1px solid burlywood;
 }
