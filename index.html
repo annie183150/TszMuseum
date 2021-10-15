@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="css/tippy.css">
   </head>
   <body>
       <header class="title">
@@ -176,6 +177,9 @@
           </div>
         </div>
       </div>
+      <div>
+        <button id="myButton">My Button</button>
+      </div>
       <footer>
         <div class="container-fluid h-100 mt-5">
           <div class="row h-100 justify-content-center align-items-center">
@@ -187,7 +191,16 @@
           </div>
         </div>
       </footer>
-    <script src="js/popper.min.js"></script>
+    
+    <script src="js/popper.min.js" ></script>
+    <script src="js/tippy-bundle.umd.min.js"></script>
+    <script>
+       tippy('#myButton', {
+        content: 'My tooltip!',
+        arrow:true,
+        theme:'light'
+      });
+    </script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
