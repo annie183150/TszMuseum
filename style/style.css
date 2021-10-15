@@ -11647,4 +11647,15 @@ footer .text {
   color: #97ccba;
   border: 1px solid burlywood;
 }
+
+.carousel-inner {
+  height: 300px;
+}
+
+.bgimg {
+  background-image: url("../image/totem-1.png");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*# sourceMappingURL=style.css.map */
